@@ -46,16 +46,16 @@ public class InternalActivity extends AppCompatActivity implements View.OnClickL
         }
     }
     void ubahfile(){
-        String ubahfile = "Coba isi data file txt";
+        String ubahfile = "update data isi txt";
         File file =new File(getFilesDir(),FILENAME);
-        FileOutputStream outputStream=null;
+        FileOutputStream outputStream = null;
         try {
             file.createNewFile();
-            outputStream= new FileOutputStream(file,false);
+            outputStream = new FileOutputStream(file, false);
             outputStream.write(ubahfile.getBytes());
             outputStream.flush();
             outputStream.close();
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
