@@ -43,9 +43,9 @@
     <TextView
         android:id="@+id/teksbaca"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:textStyle="bold"
+        android:layout_height="224dp"
+        android:inputType="textMultiLine"
         android:text="teksbaca"
-        android:inputType="textMultiLine"/>
+        android:textSize="20dp"
+        android:textStyle="bold" />
 </LinearLayout>
